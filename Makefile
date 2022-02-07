@@ -18,4 +18,4 @@ publish:
 
 PHONY: package-install
 publish: 
-	@python3 -m pip install --user dist/*.whl.
+	@python3 -m pip install --user dist/*.whl
