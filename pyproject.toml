@@ -1,21 +1,22 @@
-SHELL := bash
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
 
-PHONY: install
-install: 
-	@poetry install
-  
-PHONY: brain-games
-brain-games: 
-	@poetry run brain-games
-	
-PHONY: build
-build: 
-	@poetry build
+packages = [
+  { include = "brain_games" },
+]
 
-PHONY: publish
-publish: 
-	@poetry publish --dry-run
+[tool.poetry.dependencies]
+python = "^3.9"
+prompt = "^0.4.1"
 
-PHONY: package-install
-package-install:
-	@python3 -m pip install dist/*.whl
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
