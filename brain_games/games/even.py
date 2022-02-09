@@ -13,5 +13,5 @@ def ask_question():
 
 
 def correct_answer(expression):
-    answer = 'yes' if int(expression)%2 == 0 else 'no'
+    answer = 'yes' if int(expression) % 2 == 0 else 'no'
     return answer
