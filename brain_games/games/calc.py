@@ -11,7 +11,7 @@ def play_calc(name):
 def ask_question():
     n1 = random.randint(0, 100)
     n2 = random.randint(0, 100)
-    operation = ['+', '-', '*'][random.randint(0, 3)]
+    operation = ['+', '-', '*'][random.randint(0, 2)]
     return f'{n1} {operation} {n2}'
 
 
