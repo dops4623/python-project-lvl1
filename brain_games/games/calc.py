@@ -1,4 +1,3 @@
-import prompt
 import random
 
 from brain_games.engine import play
