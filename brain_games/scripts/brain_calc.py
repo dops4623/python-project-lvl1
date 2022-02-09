@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-import prompt
-
 from brain_games.cli import welcome_user
 from brain_games.games.calc import play_calc
 
