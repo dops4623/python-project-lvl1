@@ -28,5 +28,5 @@ def correct_answer(expression):
     else:
         add = int(a[3]) - int(a[4])
     i = a.index('..')
-    res = int(a[i-1]) + add
+    res = int(a[i - 1]) + add
     return res
