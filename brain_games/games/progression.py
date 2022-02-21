@@ -12,7 +12,9 @@ def ask_question():
     n = random.randint(5, 10)
     n1 = random.randint(0, 10)
     add = random.randint(1, 10)
-    position = random.randint(1, n+1)
+    position = random.randint(2, n)
+    print(n)
+    print(position)
     res = str(n1)
     prev = n1
     for i in range(n):
