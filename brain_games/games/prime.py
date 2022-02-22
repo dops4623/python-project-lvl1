@@ -23,4 +23,3 @@ def correct_answer(expression):
         if n % i == 0:
             return 'no'
     return 'yes'
-  
