@@ -1,15 +1,10 @@
 #!/usr/bin/env python
-from brain_games.cli import welcome_user
-from brain_games.games.prime import play_prime
-
-
-def play():
-    name = welcome_user()
-    play_prime(name)
+from brain_games import engine
+from brain_games.games import prime
 
 
 def main():
-    play()
+    engine.start(prime)
 
 
 if __name__ == '__main__':

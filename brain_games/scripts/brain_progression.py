@@ -1,15 +1,10 @@
 #!/usr/bin/env python
-from brain_games.cli import welcome_user
-from brain_games.games.progression import play_progression
-
-
-def play():
-    name = welcome_user()
-    play_progression(name)
+from brain_games import engine
+from brain_games.games import progression
 
 
 def main():
-    play()
+    engine.start(progression)
 
 
 if __name__ == '__main__':

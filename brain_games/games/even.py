@@ -1,11 +1,8 @@
 import random
 
-from brain_games.engine import play
 
-
-def play_even(name):
+def show_desc():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    play(name, ask_question, correct_answer)
 
 
 def ask_question():

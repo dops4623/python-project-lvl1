@@ -1,11 +1,8 @@
 import random
 
-from brain_games.engine import play
 
-
-def play_prime(name):
+def show_desc(name):
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    play(name, ask_question, correct_answer)
 
 
 def ask_question():

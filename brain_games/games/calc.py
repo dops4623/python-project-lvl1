@@ -1,11 +1,8 @@
 import random
 
-from brain_games.engine import play
 
-
-def play_calc(name):
+def show_desc():
     print('What is the result of the expression?')
-    play(name, ask_question, correct_answer)
 
 
 def ask_question():

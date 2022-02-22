@@ -1,11 +1,8 @@
 import random
 
-from brain_games.engine import play
 
-
-def play_progression(name):
+def show_desc(name):
     print('What number is missing in the progression?')
-    play(name, ask_question, correct_answer)
 
 
 def ask_question():

@@ -1,12 +1,9 @@
 import math
 import random
 
-from brain_games.engine import play
 
-
-def play_gcd(name):
+def show_desc():
     print('Find the greatest common divisor of given numbers.')
-    play(name, ask_question, correct_answer)
 
 
 def ask_question():
