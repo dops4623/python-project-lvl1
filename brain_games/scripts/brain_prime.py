@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 from brain_games.cli import welcome_user
-from brain_games.games.even import play_even
+from brain_games.games.prime import play_prime
 
 
 def play():
     name = welcome_user()
-    play_even(name)
+    play_prime(name)
 
 
 def main():
