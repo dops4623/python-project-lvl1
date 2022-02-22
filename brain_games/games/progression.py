@@ -1,7 +1,7 @@
 import random
 
 
-def show_desc(name):
+def show_desc():
     print('What number is missing in the progression?')
 
 

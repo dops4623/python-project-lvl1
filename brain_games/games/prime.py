@@ -1,7 +1,7 @@
 import random
 
 
-def show_desc(name):
+def show_desc():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
